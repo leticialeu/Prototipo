@@ -8,7 +8,7 @@ int main(){
     while(true){
         
             std::cout << std::endl;
-            std::cout << "Escolha uma opção" << std::endl;;
+            std::cout << "Escolha uma opção" << std::endl;
             std::cout << "1. Cadastro "<< std::endl;
             std::cout << "2. Login "<< std::endl;
             std::cout << "3. Gerencie seus gastos mensais "<< std::endl;
@@ -18,6 +18,8 @@ int main(){
 
             std::cin >> opcao;
             if (opcao == 6){break;} 
+
+            std::cout << "OI" << std::endl;
     }
 }
 
